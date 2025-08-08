@@ -22,6 +22,7 @@ Whenever an object (e.g., a person walking past or a hand wave) interrupts the I
 
 ## 🔌 Connections
 **LCD → Arduino**
+
 RS  → 12  
 EN  → 11  
 D4  → 5  
@@ -33,9 +34,10 @@ GND → GND
 
 
 **IR Sensor → Arduino**
-VCC → 5V
-GND → GND
+VCC → 5V  
+GND → GND  
 OUT → Pin 13
+
 
 ## 💻 Code
 The Arduino code is available in the `object_detection_counter.ino` file.
