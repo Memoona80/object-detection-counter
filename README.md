@@ -21,8 +21,7 @@ Whenever an object (e.g., a person walking past or a hand wave) interrupts the I
 | Breadboard & Jumper Wires | As needed |
 
 ## 🔌 Connections
-**LCD → Arduino**
-
+**LCD → Arduino:**
 RS  → 12  
 EN  → 11  
 D4  → 5  
@@ -34,8 +33,8 @@ GND → GND
 
 
 **IR Sensor → Arduino**
-VCC → 5V  
-GND → GND  
+VCC → 5V,
+GND → GND,  
 OUT → Pin 13
 
 
