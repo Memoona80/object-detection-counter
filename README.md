@@ -21,7 +21,6 @@ Whenever an object (e.g., a person walking past or a hand wave) interrupts the I
 | Breadboard & Jumper Wires | As needed |
 
 ## 🔌 Connections
-## 🔌 Connections
 
 ### LCD to Arduino
 | **LCD Pin** | **Arduino Pin** | **Description** |
