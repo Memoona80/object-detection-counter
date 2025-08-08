@@ -22,3 +22,31 @@ Whenever an object (e.g., a person walking past or a hand wave) interrupts the I
 
 ## 🔌 Connections
 **LCD → Arduino**
+RS → 12
+EN → 11
+D4 → 5
+D5 → 4
+D6 → 3
+D7 → 2
+VCC → 5V
+GND → GND
+
+**IR Sensor → Arduino**
+VCC → 5V
+GND → GND
+OUT → Pin 13
+
+## 💻 Code
+The Arduino code is available in the `object_detection_counter.ino` file.
+
+## 🚀 How It Works
+1. IR sensor detects an object in front of it.  
+2. Signal is sent to Arduino, which increments the counter.  
+3. The LCD updates with the new count.  
+4. Removing the object resets the detection state, ready for the next count.
+
+## 📚 Applications
+- Entry/exit counters for rooms.  
+- Production line object counting.  
+- Event audience tracking.  
+
