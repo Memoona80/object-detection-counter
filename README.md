@@ -22,14 +22,15 @@ Whenever an object (e.g., a person walking past or a hand wave) interrupts the I
 
 ## 🔌 Connections
 **LCD → Arduino**
-RS → 12
-EN → 11
-D4 → 5
-D5 → 4
-D6 → 3
-D7 → 2
-VCC → 5V
-GND → GND
+RS  → 12  
+EN  → 11  
+D4  → 5  
+D5  → 4  
+D6  → 3  
+D7  → 2  
+VCC → 5V  
+GND → GND  
+
 
 **IR Sensor → Arduino**
 VCC → 5V
