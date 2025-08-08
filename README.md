@@ -21,22 +21,27 @@ Whenever an object (e.g., a person walking past or a hand wave) interrupts the I
 | Breadboard & Jumper Wires | As needed |
 
 ## 🔌 Connections
-**LCD → Arduino:**
-RS  → 12  
-EN  → 11  
-D4  → 5  
-D5  → 4  
-D6  → 3  
-D7  → 2  
-VCC → 5V  
-GND → GND  
+## 🔌 Connections
 
+### LCD to Arduino
+| **LCD Pin** | **Arduino Pin** | **Description** |
+|-------------|-----------------|-----------------|
+| RS          | 12              | Register Select |
+| EN          | 11              | Enable          |
+| D4          | 5               | Data bit 4      |
+| D5          | 4               | Data bit 5      |
+| D6          | 3               | Data bit 6      |
+| D7          | 2               | Data bit 7      |
+| VCC         | 5V              | Power supply    |
+| GND         | GND             | Ground          |
+| V0          | Potentiometer   | Contrast control|
 
-**IR Sensor → Arduino**
-VCC → 5V,
-GND → GND,  
-OUT → Pin 13
-
+### IR Sensor to Arduino
+| **IR Sensor Pin** | **Arduino Pin** | **Description** |
+|-------------------|-----------------|-----------------|
+| VCC               | 5V              | Power supply    |
+| GND               | GND             | Ground          |
+| OUT               | 13              | Detection signal|
 
 ## 💻 Code
 The Arduino code is available in the `object_detection_counter.ino` file.
